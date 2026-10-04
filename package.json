@@ -1,0 +1,17 @@
+{
+  "name": "helloagents-trip-planner",
+  "version": "1.0.0",
+  "description": "旅行规划AI助手项目",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && python run.py",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "author": "",
+  "license": "MIT"
+}

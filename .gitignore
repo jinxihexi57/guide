@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/.venv/
+backend/venv/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Build / cache
+frontend/dist/
+backend/.uv-cache/
+backend/.tmp/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime memory / traces
+backend/memory/
